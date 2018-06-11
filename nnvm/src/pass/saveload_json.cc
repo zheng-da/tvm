@@ -255,7 +255,6 @@ NNVM_REGISTER_PASS(SaveJSON)
 .set_change_graph(true)
 .provide_graph_attr("json");
 
-
 DMLC_JSON_ENABLE_ANY(std::string, str);
 DMLC_JSON_ENABLE_ANY(std::vector<int>, list_int);
 DMLC_JSON_ENABLE_ANY(std::vector<std::string>, list_str);
